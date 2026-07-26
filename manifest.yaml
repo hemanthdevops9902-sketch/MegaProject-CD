@@ -58,7 +58,7 @@ spec:
         app: mysql
     spec:
       containers:
-      - image: hemanthdevops02/megaproject:V11
+      - image: hemanthdevops02/megaproject:V12
         name: mysql
         resources:
           requests:
@@ -118,7 +118,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: hemanthdevops02/megaproject:V11
+        image: hemanthdevops02/megaproject:V12
         resources:
           requests:
             memory: "256Mi"
