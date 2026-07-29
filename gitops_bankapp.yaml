@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: hemanthdevops02/megaproject:v5
+        image: hemanthdevops02/megaproject:2026_07_29_V11
         ports:
         - containerPort: 8080
         env:
